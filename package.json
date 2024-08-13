@@ -1,0 +1,19 @@
+{
+  "name": "wordbot",
+  "version": "1.0.0",
+  "description": "biblebot integrated with openai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "npx prettier . --write"
+  },
+  "author": "witeout",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.55.5",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3"
+  }
+}
